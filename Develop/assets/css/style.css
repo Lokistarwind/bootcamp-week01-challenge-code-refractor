@@ -1,0 +1,154 @@
+/* Universal class defining boxes*/
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+/* Body background*/
+body {
+    background-color: #d9dcd6;
+}
+
+/* Page Header*/
+header {
+    padding: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: #2a607c;
+    color: #ffffff;
+}
+
+/* Specifies Page Header text*/
+header h1 {
+    display: inline-block;
+    font-size: 48px;
+}
+
+/* Changes the color of "seo" in "Horiseon" header text*/
+header h1 .seo {
+    color: #d9dcd6;
+}
+
+/* Page Navigation Bar*/
+nav {
+    padding-top: 15px;
+    margin-right: 20px;
+    float: right;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+}
+
+/* Species the line style of nav unordered list*/
+nav ul {
+    list-style-type: none;
+}
+
+/* Species the line style of unordered list item */
+nav ul li {
+    display: inline-block;
+    margin-left: 25px;
+}
+
+/* Species the hyperlink color */
+a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+/* Species the font size of paragraph */
+p {
+    font-size: 16px;
+}
+
+/* Class that displays and speciifies the photo section of the page just below the navigation bar*/
+.hero {
+    height: 800px;
+    width: 100%;
+    margin-bottom: 25px;
+    background-image: url("../images/digital-marketing-meeting.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+/* class that makes an image floats left side of the header and text in the content section of the page */
+.float-left {
+    float: left;
+    margin-right: 25px;
+}
+
+/* class that makes an image floats right side of the header and text in the content section of the page */
+.float-right {
+    float: right;
+    margin-left: 25px;
+}
+
+/* Class that specifies the main content of page*/
+.content {
+    width: 75%;
+    display: inline-block;
+    margin-left: 20px;
+}
+
+/* Class that specifies the articles section of class content*/
+.search-engine-optimization, .online-reputation-management, .social-media-marketing {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #0072bb;
+    color: #ffffff;
+}
+
+/* Class that specifies the articles image of class content"*/
+.search-engine-optimization img, .online-reputation-management img, .social-media-marketing img {
+    max-height: 200px;
+}
+
+/* Class that specifies the articles header h2 of class content"*/
+.search-engine-optimization h2, .online-reputation-management h2, .social-media-marketing h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+
+/* Class that specifies container of the benefits aside section of page*/
+.benefits {
+    margin-right: 20px;
+    padding: 20px;
+    clear: both;
+    float: right;
+    width: 20%;
+    height: 100%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #2589bd;
+}
+
+/* Class that specifies the articles of the aside section of the page*/
+.benefit-lead, .benefit-brand, .benefit-cost {
+    margin-bottom: 32px;
+    color: #ffffff;
+}
+
+/* Class that specifies the header of the articles aside section of the page*/
+.benefit-lead h3, .benefit-brand h3, .benefit-cost h3 {
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+/* Class that specifies the image of the articles aside section of the page*/
+.benefit-lead img, .benefit-brand img, .benefit-cost img {
+    display: block;
+    margin: 10px auto;
+    max-width: 150px;
+}
+
+/* Specifies the page footer*/
+footer {
+    padding: 30px;
+    clear: both;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+}
+/* Specifies the header h2 of footer*/
+footer h2 {
+    font-size: 20px;
+}
